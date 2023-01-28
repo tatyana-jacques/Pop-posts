@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module"></script>
+    <title>Pop</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>POP</h1>
+            <img src="pop_image.png" alt="Image">
+        </div>
+        <div class="post">
+            <div class="Name">
+                <h3>Nome</h3>
+                <input type="text" name="Name" id="Name" size="10" />
+            </div>
+
+            <div class="Text">
+                <h3>Texto</h3>
+                <textarea id="Text" name="Text" minLength="10" maxLength="300"></textarea>
+            </div>
+            <button id="Button">Postar</button>
+        </div>
+
+
+
+    </div>
+
+    <div class="List">
+        <h3 id="Lista">Lista de Postagens</h3>
+        <div class="postList" id="postList">
+        </div>
+
+
+
+</body>
+
+</html>

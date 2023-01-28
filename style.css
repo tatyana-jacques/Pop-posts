@@ -1,0 +1,139 @@
+body {
+    background-color: #646C8F;
+    ;
+    color: #646C8F;
+    /* reset */
+    margin: 0 10%;
+    padding: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    margin: 0 50px;
+
+}
+
+.container {
+    background-color: #FFE3CC;
+    margin: 5% 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    width: 400px;
+    height: 700px;
+}
+
+.title {
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: #646C8F;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: #646C8F;
+    font-size: 1.5rem;
+
+}
+
+textarea {
+    width: 300px;
+    font-size: 1.1rem;
+    color: #646C8F;
+    margin-bottom: 10px;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 200px;
+    align-self: right;
+}
+
+
+button {
+    border-radius: 10px;
+    border-color: #454b5e;
+    width: 150px;
+    height: 50px;
+    font-size: 1.1rem;
+    background-color: #646C8F;
+    color: azure;
+    margin: 20px;
+}
+
+button:hover {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+a {
+    margin: 50px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #646C8F;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.inscribe {
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+.postList {
+    color: #646C8F;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#Lista {
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+.List {
+    background-color: #FFE3CC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+
+}
